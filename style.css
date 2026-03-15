@@ -344,11 +344,14 @@ p.sub { color: #666; max-width: 520px; margin-bottom: 32px; font-size: 0.95rem; 
 .anim-5 { animation: fadeUp 0.55s ease 0.7s forwards; }
 
 .scroll-reveal {
-  opacity: 0;
-  transform: translateY(28px);
+  opacity: 1;
+  transform: none;
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
+.scroll-reveal {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
 .scroll-reveal.revealed {
   opacity: 1;
   transform: translateY(0);

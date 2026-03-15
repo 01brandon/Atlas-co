@@ -208,3 +208,9 @@ function tickLiveProgress() {
 }
 
 setInterval(tickLiveProgress, 7000);
+
+window.addEventListener('load', function() {
+  if (window.location.hash === '#project-detail') {
+    window.location.hash = '#projects';
+  }
+});
