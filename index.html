@@ -374,3 +374,41 @@
     </div>
   </section>
 </div>
+
+<!--SIGN IN PAGE-->
+<div id="portal" class="page">
+  <div class="page-header">
+    <div class="wrap">
+      <div class="section-label">Client Portal</div>
+      <h1>Sign In</h1>
+      <p>Log in to manage your bids and project enquiries.</p>
+    </div>
+  </div>
+
+  <div class="portal-wrap">
+    <div class="portal-box">
+      <a href="#home" class="logo portal-logo">Atlas<span>&</span>Co</a>
+      <p class="portal-sub">Client Portal</p>
+
+      <div class="field">
+        <label for="login-email"><i class="fa-regular fa-envelope"></i> Email</label>
+        <input type="email" id="login-email" name="email" placeholder="you@company.com" autocomplete="email"/>
+      </div>
+      <div class="field">
+        <label for="login-pass"><i class="fa-solid fa-lock"></i> Password</label>
+        <input type="password" id="login-pass" name="password" placeholder="••••••••" autocomplete="current-password"/>
+      </div>
+
+      <div id="login-error" class="form-msg"></div>
+      <div id="login-success" class="form-msg"></div>
+
+      <button class="btn login-submit" id="login-btn" type="button">
+        <i class="fa-solid fa-arrow-right-to-bracket"></i> Sign In
+      </button>
+
+      <p class="switch-note">
+        Don't have an account? <a href="#register">Register here</a>
+      </p>
+    </div>
+  </div>
+</div>
