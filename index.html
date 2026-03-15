@@ -11,3 +11,38 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+
+    <!-- ── NAV ── -->
+<nav id="navbar">
+  <div class="nav-wrap">
+    <a href="#home" class="logo" id="nav-logo">Atlas<span>&</span>Co</a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+      <li><a href="#projects"><i class="fa-solid fa-helmet-safety"></i> Projects</a></li>
+      <li><a href="#expertise"><i class="fa-solid fa-compass-drafting"></i> Expertise</a></li>
+      <li class="auth-hide"><a href="#portal"><i class="fa-solid fa-lock"></i> Sign In</a></li>
+      <li class="auth-hide"><a href="#register"><i class="fa-solid fa-user-plus"></i> Register</a></li>
+      <li class="auth-show" style="display:none"><a href="#dashboard"><i class="fa-solid fa-gauge"></i> Dashboard</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a href="#portal" class="btn nav-btn auth-hide" id="nav-bid-btn">Request a Bid</a>
+      <a href="#dashboard" class="btn nav-btn auth-show" id="nav-dashboard-btn" style="display:none">My Dashboard</a>
+      <button class="hamburger" id="hamburger" type="button" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="#home"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="#projects"><i class="fa-solid fa-helmet-safety"></i> Projects</a>
+    <a href="#expertise"><i class="fa-solid fa-compass-drafting"></i> Expertise</a>
+    <a href="#portal" class="auth-hide"><i class="fa-solid fa-lock"></i> Sign In</a>
+    <a href="#register" class="auth-hide"><i class="fa-solid fa-user-plus"></i> Register</a>
+    <a href="#dashboard" class="auth-show" style="display:none"><i class="fa-solid fa-gauge"></i> Dashboard</a>
+    <a href="#" id="mobile-logout" class="auth-show" style="display:none"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+    <a href="#portal" class="mobile-cta auth-hide"><i class="fa-solid fa-file-invoice"></i> Request a Bid</a>
+  </div>
+</nav>
