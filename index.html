@@ -412,3 +412,58 @@
     </div>
   </div>
 </div>
+<!--REGISTER PAGE-->
+<div id="register" class="page">
+  <div class="page-header">
+    <div class="wrap">
+      <div class="section-label">New Account</div>
+      <h1>Register</h1>
+      <p>Create your client account to submit and track bid requests.</p>
+    </div>
+  </div>
+
+  <div class="portal-wrap">
+    <div class="portal-box portal-box--wide">
+      <a href="#home" class="logo portal-logo">Atlas<span>&</span>Co</a>
+      <p class="portal-sub">Create Account</p>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="reg-name"><i class="fa-solid fa-user"></i> Full Name</label>
+          <input type="text" id="reg-name" name="name" placeholder="John Doe" autocomplete="name"/>
+        </div>
+        <div class="field">
+          <label for="reg-company"><i class="fa-solid fa-building"></i> Company</label>
+          <input type="text" id="reg-company" name="company" placeholder="Your Company Ltd"/>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="reg-email"><i class="fa-regular fa-envelope"></i> Email</label>
+        <input type="email" id="reg-email" name="email" placeholder="you@company.com" autocomplete="email"/>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="reg-pass"><i class="fa-solid fa-lock"></i> Password</label>
+          <input type="password" id="reg-pass" name="password" placeholder="Min. 6 characters" autocomplete="new-password"/>
+        </div>
+        <div class="field">
+          <label for="reg-confirm"><i class="fa-solid fa-lock"></i> Confirm Password</label>
+          <input type="password" id="reg-confirm" name="confirm" placeholder="Repeat password" autocomplete="new-password"/>
+        </div>
+      </div>
+
+      <div id="reg-error" class="form-msg"></div>
+      <div id="reg-success" class="form-msg"></div>
+
+      <button class="btn login-submit" id="reg-btn" type="button">
+        <i class="fa-solid fa-user-plus"></i> Create Account
+      </button>
+
+      <p class="switch-note">
+        Already have an account? <a href="#portal">Sign in here</a>
+      </p>
+    </div>
+  </div>
+</div>
